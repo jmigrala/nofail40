@@ -176,10 +176,13 @@ a:hover {
 .nav-logo-text sup {
   color: var(--color-accent);
   font-size: 0.55em;
-  font-weight: 800;
+  font-weight: 500;
   vertical-align: super;
   line-height: 0;
 }
+/* Brand name: NOFAIL bold, 40 lighter */
+.brand-name { font-weight: 800; letter-spacing: 0.02em; }
+.brand-name sup { color: var(--color-accent); font-weight: 500; font-size: 0.6em; vertical-align: super; }
 .nav-links {
   display: none;
   gap: var(--space-6);
