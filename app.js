@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!container || typeof qrcode === 'undefined') return;
 
   const qr = qrcode(0, 'M');
-  qr.addData('https://nofail40.com');
+  qr.addData('https://nofail40.com/get-app');
   qr.make();
   container.innerHTML = qr.createImgTag(4, 8);
   const img = container.querySelector('img');
